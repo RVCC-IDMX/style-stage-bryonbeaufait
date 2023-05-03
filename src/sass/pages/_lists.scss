@@ -4,6 +4,7 @@
     list-style-position: inside;
 }
 
+@media only screen and (min-width: 600px){
 article .container ul {
     display: flex;
     flex-direction: row;
@@ -12,4 +13,5 @@ article .container ul {
     gap: 20px 30px;
     list-style: none;
     color: $blue;
+}
 }

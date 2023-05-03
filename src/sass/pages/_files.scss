@@ -1,0 +1,30 @@
+@use '../abstracts/index' as *;
+
+@media only screen and (min-width: 600px) {
+    
+    #files .container {
+        display: flex;
+        margin: 1.5rem 0;
+        padding: 1.5rem;
+        border: 2px solid $blue;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    #files .container h3 {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    #files a {
+        display: inline-block;
+        white-space: nowrap;
+        padding: 8px 20px;
+        margin: 5px;
+        text-align: center;
+        flex: 1;
+        border: 2px solid;
+        border-radius: 0.5em 0.5em;
+        border-color: $blue;
+    }
+}

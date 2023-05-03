@@ -9,7 +9,7 @@ body {
 
 .container {
     max-width: 80ch;
-    margin: 8vh auto;
+    margin: 4vh auto;
 }
 
 svg {
@@ -27,8 +27,16 @@ body {
     color: $dark-200;
 }
 
+h2, h3 {
+    color: $white;
+}
+
+.container {
+    margin: 2vh auto;
+}
+
 a {
-    color: $purple-100;
+    color: $purple-200;
     text-decoration: none;
     font-style: bold;
 }

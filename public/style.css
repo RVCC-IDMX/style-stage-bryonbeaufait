@@ -71,7 +71,7 @@ body {
 
 .container {
   max-width: 80ch;
-  margin: 8vh auto;
+  margin: 4vh auto;
 }
 
 svg {
@@ -84,11 +84,17 @@ svg {
 
 @media only screen and (min-width: 600px) {
   body {
-    background-color: #291832;
+    background-color: #0f0515;
     color: #7B7B7B;
   }
+  h2, h3 {
+    color: #ffffff;
+  }
+  .container {
+    margin: 2vh auto;
+  }
   a {
-    color: #D6CCD9;
+    color: #D6B0E7;
     text-decoration: none;
     font-style: bold;
   }
@@ -145,14 +151,40 @@ nav ul {
   list-style-position: inside;
 }
 
-article .container ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px 30px;
-  list-style: none;
-  color: #3990b2;
+@media only screen and (min-width: 600px) {
+  article .container ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px 30px;
+    list-style: none;
+    color: #3990b2;
+  }
 }
-
+@media only screen and (min-width: 600px) {
+  #files .container {
+    display: flex;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border: 2px solid #3990b2;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  #files .container h3 {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  #files a {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 8px 20px;
+    margin: 5px;
+    text-align: center;
+    flex: 1;
+    border: 2px solid;
+    border-radius: 0.5em 0.5em;
+    border-color: #3990b2;
+  }
+}
 /* main */
