@@ -1,1 +1,43 @@
 /* home */
+@use '../abstracts/index' as *;
+
+body {
+    font-family: 'Petrona', serif;
+    padding: 1em;
+    display: grid;
+}
+
+.container {
+    max-width: 80ch;
+    margin: 8vh auto;
+}
+
+svg {
+    width: 1em;
+}
+
+:is(h1, h2, h3) {
+    line-height: 1.2;
+}
+
+@media only screen and (min-width: 600px) {
+    
+body {
+    background-color: $dark-300;
+    color: $dark-200;
+}
+
+a {
+    color: $purple-100;
+    text-decoration: none;
+    font-style: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+}
+

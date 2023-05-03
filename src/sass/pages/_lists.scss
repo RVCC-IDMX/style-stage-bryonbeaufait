@@ -1,0 +1,15 @@
+@use "../abstracts/index" as *;
+
+:where(ul, ol) {
+    list-style-position: inside;
+}
+
+article .container ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px 30px;
+    list-style: none;
+    color: $blue;
+}

@@ -1,1 +1,6 @@
 /* main */
+@use "./base/reset";
+@use "./pages/home";
+@use "./pages/nav";
+@use "./pages/skiplink";
+@use "./pages/lists";
