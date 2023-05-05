@@ -1,0 +1,28 @@
+@use '../abstracts/index' as *;
+
+@media only screen and (min-width: 600px) {
+
+    .profile .container {
+        display: grid;
+        border: 2px solid $blue;
+        width: 250px;
+        height: 210px;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 1.5rem;
+        border-radius: 0.5rem 0.5rem;
+    }
+
+    #profile-title {
+        color: $white;
+        font-size: 20px;
+        padding-bottom: 0.5rem;
+    }
+
+    .profile ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+
+}

@@ -1,0 +1,26 @@
+@use '../abstracts/index' as *;
+
+@media only screen and (min-width: 600px) {
+    
+    #styles h2 {
+        display: grid;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 1rem;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 1rem;
+        list-style: none;
+    }
+
+    .link-allstyles {
+        display: grid;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+}
