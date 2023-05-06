@@ -86,6 +86,17 @@ svg {
   body {
     background-color: #0f0515;
     color: #7B7B7B;
+    line-height: 1.6;
+  }
+  h1 {
+    font-size: 75px;
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 5rem;
+  }
+  h2, h3 {
+    padding-bottom: 1rem;
   }
   h2, h3 {
     color: #ffffff;
@@ -100,6 +111,9 @@ svg {
   }
   a:hover {
     text-decoration: underline;
+  }
+  svg {
+    fill: #ffffff;
   }
 }
 nav ul {
@@ -160,9 +174,14 @@ nav ul {
     gap: 20px 30px;
     list-style: none;
     color: #3990b2;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 }
 @media only screen and (min-width: 600px) {
+  #files {
+    padding-top: 3.5rem;
+  }
   #files .container {
     display: flex;
     margin: 1.5rem 0;
@@ -188,6 +207,11 @@ nav ul {
   }
 }
 @media only screen and (min-width: 600px) {
+  .profile {
+    display: grid;
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+  }
   .profile .container {
     display: grid;
     border: 2px solid #3990b2;
@@ -202,6 +226,9 @@ nav ul {
     color: #ffffff;
     font-size: 20px;
     padding-bottom: 0.5rem;
+  }
+  .profile ul li :first-child:not(a) {
+    color: #ffffff;
   }
   .profile ul {
     display: flex;
@@ -226,6 +253,40 @@ nav ul {
   .link-allstyles {
     display: grid;
     justify-content: center;
+    padding-top: 2rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #main h2 {
+    padding-bottom: 1rem;
+  }
+  #main p {
+    padding-bottom: 0.5rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #guidelines h3 {
+    padding-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .page-footer {
+    display: grid;
+  }
+  .page-footer p:first-child {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 2rem;
+  }
+  .page-footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    list-style: none;
+    padding-bottom: 1.5rem;
+  }
+  .page-footer p:last-child {
     padding-top: 1rem;
   }
 }

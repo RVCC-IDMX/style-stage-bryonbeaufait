@@ -1,26 +1,30 @@
 @use '../abstracts/index' as *;
 
 @media only screen and (min-width: 600px) {
-    
-    #styles h2 {
+
+    .page-footer {
         display: grid;
-        text-align: center;
-        font-size: 30px;
-        padding-bottom: 1rem;
     }
 
-    .features {
+    .page-footer p:first-child{
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 2rem;
+    }
+
+    .page-footer ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         gap: 1rem;
         list-style: none;
+        padding-bottom: 1.5rem;
     }
 
-    .link-allstyles {
-        display: grid;
-        justify-content: center;
-        padding-top: 2rem;
+    .page-footer p:last-child {
+        padding-top: 1rem;
     }
 
+
+    
 }

@@ -1,0 +1,8 @@
+@use "../abstracts/index" as *;
+
+@media only screen and (min-width: 600px) {
+
+    #guidelines h3 {
+        padding-bottom: 1rem;
+    }
+}
